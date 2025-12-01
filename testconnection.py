@@ -5,7 +5,7 @@ try:
         host="localhost",
         database="mydb",
         user="postgres",
-        password="hypervanoM20",
+        password="your_password",
         port=5432
     )
     print("Connected")
