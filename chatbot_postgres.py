@@ -1,7 +1,7 @@
 import psycopg2
 from bytez import Bytez
 
-key = "bbaa8bcf547a6aa15aed3656655eb814"
+key = "your_api_key"
 sdk = Bytez(key)
 model = sdk.model("openai/gpt-5")
 
@@ -10,7 +10,7 @@ def get_connection():
         host="localhost",
         database="mydb",
         user="postgres",
-        password="hypervanoM20",
+        password="your_password",
         port=5432
     )
 
